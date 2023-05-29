@@ -1,0 +1,81 @@
+.rodape {
+    background: url(../images/fundo-rodape.jpg) center center no-repeat;
+    padding: 35px 30px;
+    background-size: cover;
+}
+
+.rodape ul {
+    float: right;
+    margin-top: 30px;
+}
+
+.rodape ul li{
+    display: inline-block;
+    padding: 15px;
+
+}
+.rodape ul li a {
+    color: white;
+}
+
+.rodape ul li a:hover{
+    font-weight: bold;
+}
+
+.rodape .copyright {
+    color: white;
+    margin-top: 40px;
+}
+
+.rodape .redes-sociais .facebook,
+.rodape .redes-sociais .instagram{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.rodape .redes-sociais{
+    float: right;
+    clear: both;
+}
+
+.rodape .conteudo-de-baixo{
+    margin-top: 40px;
+}
+
+
+
+
+/* ###### QUERIES ###### */
+
+@media (max-width: 720px){
+    .rodape{
+        text-align: center;
+        background-image: none;
+        background-color: black;
+    }
+    
+    .rodape .logo{
+        display: block;
+        margin-bottom: 122px;
+    }
+    
+    .rodape ul{
+        display: block;
+        width: 100%;
+        margin-bottom: 122px;
+    }
+
+    .rodape ul li{
+        display: block;
+    }
+    .rodape ul li a{
+        font-size: 2rem;
+    }
+
+    .rodape .redes-sociais{
+        float: none;
+        margin-bottom: 28px;
+
+    }
+}

@@ -1,0 +1,169 @@
+.painel {
+    background: url(../images/painel.jpg) center center no-repeat;
+    height: 600px;
+}   
+
+.painel h2 {
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.secao-com-texto {
+    padding: 153px;
+    text-align: center;
+    clear: both;
+}
+
+.secao-com-texto img{
+    width: 170px;
+    height: 170px;
+}
+
+.secao-com-texto h2 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 37px;
+}
+
+.secao-com-texto p {
+    font-size: 18px;
+    width: 702px;
+    margin: 0 auto;
+}
+
+.secao-com-texto.onde-estamos p {
+    font-size: 28px;
+    width: 450px;
+}
+
+.ladrilho div {
+    float: left;
+}
+
+.ladrilho .grande {
+    background: url(../images/4.jpg) center center no-repeat;
+    height: 600px;
+    width: 50%;
+}
+
+.ladrilho .pequeno {
+    background: url(../images/3.jpg) center center no-repeat;
+    height: 300px;
+    width: 25%;
+}
+.ladrilho .pequeno.grao {
+    background: url(../images/2.jpg) center center no-repeat;
+    height: 300px;
+    width: 25%;
+}
+
+.ladrilho .medio {
+    background: url(../images/1.jpg) center center no-repeat;
+    height: 300px;
+    width: 50%;
+}
+
+.contato {
+    background: url(../images/fundo-contato.jpg) center center no-repeat;
+    color: white;
+    height: 600px;
+    position: relative;
+}
+
+.contato h2{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contato address{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.contato .texto{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+
+
+/* ###### QUERIES ###### */
+
+@media (max-width: 992px){
+
+    .secao-com-texto{
+        padding: 153px 30px;
+    }
+
+    .secao-com-texto p, .secao-com-texto.onde-estamos p{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px){
+    .contato{
+        background-image: none;
+        background-color: #cfa35c;
+    }
+    
+    .contato .texto{
+        position: relative;
+        text-align: center;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+
+    .contato h2{
+        margin-bottom: 46px;
+    }
+}
+
+@media (max-width: 720px){
+    .ladrilho .grande,
+    .ladrilho .medio{
+        width: 100%;
+    }
+    .ladrilho .pequeno,
+    .ladrilho .pequeno.grao{
+        width: 50%;
+    }
+    .contato .texto{
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 425px){
+    .painel h2{
+        font-size: 2.5rem;
+    }
+    
+    .secao-com-texto h2{
+        font-size: 3rem;
+    }
+    
+    .secao-com-texto.onde-estamos p{
+        font-size: 2rem;
+    }
+    .contato h2{
+        font-size: 3rem;
+    }
+    .contato address {
+        font-size: 1.8rem;
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 375px){
+    .ladrilho .pequeno,
+    .ladrilho .pequeno.grao{
+        width: 100%;
+    }
+}

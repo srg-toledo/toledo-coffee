@@ -1,0 +1,10 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgb(221, 221, 221);
+    font-size: 1.6rem;
+}
